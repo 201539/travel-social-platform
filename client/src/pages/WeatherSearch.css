@@ -1,0 +1,147 @@
+.weather-search-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.weather-search-header {
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+
+.weather-search-header .ant-card-body {
+    padding: 32px;
+}
+
+.search-header-content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.search-header-content h1 {
+    color: white;
+    margin: 0 0 8px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search-header-content p {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    font-size: 14px;
+}
+
+.weather-search-box {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.weather-search-box .ant-card-body {
+    padding: 32px;
+}
+
+/* 确保搜索框和按钮容器可见 */
+.weather-search-box > .ant-card-body > div {
+    display: flex !important;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weather-result-card {
+    margin-bottom: 24px;
+}
+
+.result-header {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.result-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.weather-search-tips {
+    background: #f0f9ff;
+    border: 1px solid #91d5ff;
+}
+
+.weather-search-tips h3 {
+    margin-top: 0;
+    color: #1890ff;
+}
+
+.weather-search-tips ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.weather-search-tips li {
+    margin-bottom: 8px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* 餐厅推荐卡片样式 */
+.restaurant-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.restaurant-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.restaurant-location {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.restaurant-reason {
+    color: #666;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .weather-search-container {
+        padding: 16px;
+    }
+
+    .search-header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-header-content .anticon {
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+
+    .weather-search-box .ant-card-body {
+        padding: 16px;
+    }
+}

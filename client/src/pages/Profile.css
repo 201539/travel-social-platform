@@ -1,0 +1,43 @@
+.profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-header {
+    margin-bottom: 24px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.profile-details p {
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 24px;
+    color: #666;
+}
+
+.profile-stats span {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-content {
+    margin-top: 24px;
+}

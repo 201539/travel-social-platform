@@ -1,0 +1,33 @@
+# 服务器配置
+PORT=5000
+NODE_ENV=development
+
+# 数据库配置
+MONGODB_URI=mongodb://localhost:27017/travel_platform
+
+# JWT密钥（生产环境请使用强随机字符串）
+JWT_SECRET=travel_platform_jwt_secret_key_2024_development
+
+# 管理员账号（服务启动时自动确保存在）
+# 建议上线时改为强密码，并只在安全环境下保存
+ADMIN_EMAIL=admin@example.com
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin123456
+
+# 是否强制重置管理员密码（仅开发/自测建议开启，用完请改回 false 或删除）
+ADMIN_RESET_PASSWORD=false
+
+# 第三方服务API密钥（可选，开发环境可以不配置）
+AMAP_API_KEY=
+BAIDU_MAP_API_KEY=
+WEATHER_API_KEY=
+
+# 云存储配置（可选，开发环境使用本地存储）
+OSS_ACCESS_KEY_ID=
+OSS_ACCESS_KEY_SECRET=
+OSS_BUCKET=
+OSS_REGION=
+
+# AI服务配置（可选）
+AI_SERVICE_URL=http://localhost:8000
+

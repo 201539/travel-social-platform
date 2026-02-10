@@ -1,0 +1,137 @@
+.travel-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.travel-header {
+    margin-bottom: 24px;
+}
+
+.travel-header h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.travel-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #666;
+}
+
+.travel-date {
+    margin-left: auto;
+    color: #999;
+    font-size: 14px;
+}
+
+.travel-photos {
+    margin: 24px 0;
+}
+
+.travel-info {
+    margin: 24px 0;
+}
+
+.travel-tags {
+    margin: 16px 0;
+}
+
+/* 详情页描述容器 - 确保不被截断 */
+.travel-detail-container .travel-description {
+    margin: 24px 0;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+    border-left: 4px solid #1890ff;
+    /* 明确覆盖任何可能的截断样式 */
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    max-height: none !important;
+    height: auto !important;
+}
+
+.travel-description-content {
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.8;
+    color: #333;
+    font-size: 16px;
+    max-width: 100%;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    /* 明确覆盖截断样式 */
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    max-height: none !important;
+    height: auto !important;
+}
+
+.travel-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.travel-stats {
+    margin-left: auto;
+    color: #999;
+}
+
+.comments-section {
+    margin-top: 24px;
+}
+
+.comments-list {
+    margin-bottom: 24px;
+}
+
+.comment-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.comment-item:last-child {
+    border-bottom: none;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #333;
+}
+
+.comment-date {
+    color: #999;
+    font-size: 12px;
+}
+
+.comment-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+.comment-input {
+    margin-top: 24px;
+}

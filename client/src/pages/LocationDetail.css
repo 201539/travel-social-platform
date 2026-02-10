@@ -1,0 +1,21 @@
+.location-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.location-detail-container h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.location-stats {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+    color: #666;
+}
+
+.location-travels {
+    margin-top: 24px;
+}

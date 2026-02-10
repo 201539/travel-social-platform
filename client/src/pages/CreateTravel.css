@@ -1,0 +1,27 @@
+.create-travel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upload-item-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.upload-item-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.upload-item-actions .ant-btn {
+    width: 100%;
+}

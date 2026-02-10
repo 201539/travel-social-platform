@@ -1,0 +1,25 @@
+{
+    "name": "travel-social-platform",
+    "version": "1.0.0",
+    "description": "个性化旅行记录、沉浸式内容发现、活跃旅行社区平台",
+    "main": "server/index.js",
+    "scripts": {
+        "dev": "concurrently -k \"npm run server\" \"npm run client\"",
+        "dev:windows": "start cmd /k \"cd server && npm run dev\" && timeout /t 2 /nobreak >nul && start cmd /k \"cd client && npm start\"",
+        "server": "cd server && npm run dev",
+        "client": "cd client && npm start",
+        "mobile": "cd mobile && npm start",
+        "install-all": "npm install && cd server && npm install && cd ../client && npm install && cd ../mobile && npm install"
+    },
+    "keywords": [
+        "travel",
+        "social",
+        "mobile",
+        "react"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
